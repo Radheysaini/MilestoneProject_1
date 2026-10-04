@@ -3,10 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>SUMAN OPTICALS & Medical</title>
-    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1 class="text-4xl font-bold text-blue-600">Tailwind is Working!</h1>
+
+  <body class="bg-white font-sans leading-[1.5] text-[#101828] overflow-x-hidden">
+    <!-- =========================
+         TOP UTILITY BAR (visible only from 1100px)
+    ========================== -->
+
+    <div class="hidden md:block bg-navy text-[10px] text-[#aebccc]">
+      <div
+        class="mx-auto flex min-h-[34px] w-[min(100%_-_32px,1240px)] items-center justify-between md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+        <p>Professional Eye Care & Eyewear</p>
+
+        <div class="flex gap-[22px]">
+          <a
+            href="#contact"
+            class="transition-[color] duration-200 ease-[ease] hover:text-white motion-reduce:transition-none">
+            Call Us
+          </a>
+          <a
+            href="#store"
+            class="transition-[color] duration-200 ease-[ease] hover:text-white motion-reduce:transition-none">
+            Store Location
+          </a>
+          <a
+            href="#appointment"
+            class="transition-[color] duration-200 ease-[ease] hover:text-white motion-reduce:transition-none">
+            Book Eye Test
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================
+         MAIN NAVIGATION
+    ========================== -->
+
+    <header class="sticky top-0 z-[1000] border-b border-line bg-white/20 backdrop-blur-[10px]">
+      <div
+        class="mx-auto flex min-h-[70px] w-[min(100%_-_32px,1240px)] items-center justify-between gap-[20px] md:w-[min(100%_-_64px,1240px)] lg:min-h-[76px] lg:w-[min(100%_-_80px,1240px)]">
+        <!-- Logo -->
+        <div class="inline-flex shrink-0 items-center gap-[10px]">
+          <a href="#" class="inline-flex items-center gap-[8px]">
+            <img src="images/suman-logo.jpeg" class="h-[34px] w-[34px] object-contain" />
+
+            <span class="whitespace-nowrap text-[15px] font-bold tracking-[0.08em] text-navy">SUMAN OPTICALS</span>
+          </a>
+
+          <a
+            href="medical.html"
+            class="inline-flex items-center gap-[3px] whitespace-nowrap text-[11px] font-semibold text-[#d11a2a] transition-[color] duration-200 ease-[ease] hover:text-[#a9000f] motion-reduce:transition-none">
+            <span class="text-[13px] font-medium">&</span>
+            <span class="text-[11px]">Medical</span>
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:ml-auto lg:flex lg:items-center lg:gap-[26px]" aria-label="Main navigation">
+          <a
+            href="#eyeglasses"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Eyeglasses
+          </a>
+          <a
+            href="#sunglasses"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Sunglasses
+          </a>
+          <a
+            href="#lenses"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Contact Lenses
+          </a>
+          <a
+            href="#eye-care"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Eye Care
+          </a>
+          <a
+            href="#lens-tech"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Lenses
+          </a>
+          <a
+            href="#about"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            About Us
+          </a>
+        </nav>
+
+        <!-- Navigation Actions -->
+        <div class="flex items-center gap-[8px] lg:ml-[10px]">
+          <button class="grid h-[38px] w-[38px] cursor-pointer place-items-center text-navy" aria-label="Search">
+            <svg
+              viewBox="0 0 24 24"
+              class="h-[19px] w-[19px] fill-none stroke-current stroke-[1.7] [stroke-linecap:round] [stroke-linejoin:round]">
+              <circle cx="11" cy="11" r="6.5"></circle>
+              <path d="M16 16L21 21"></path>
+            </svg>
+          </button>
+
+          <button
+            class="desktop-only grid h-[38px] w-[38px] cursor-pointer place-items-center text-navy"
+            aria-label="Wishlist">
+            <svg
+              viewBox="0 0 24 24"
+              class="h-[19px] w-[19px] fill-none stroke-current stroke-[1.7] [stroke-linecap:round] [stroke-linejoin:round]">
+              <path
+                d="M20.8 8.8C20.8 13.8 12 20 12 20S3.2 13.8 3.2 8.8C3.2 5.8 5.4 4 8 4C9.7 4 11.1 4.8 12 6C12.9 4.8 14.3 4 16 4C18.6 4 20.8 5.8 20.8 8.8Z"></path>
+            </svg>
+          </button>
+
+          <button
+            class="desktop-only grid h-[38px] w-[38px] cursor-pointer place-items-center text-navy"
+            aria-label="Shopping bag">
+            <svg
+              viewBox="0 0 24 24"
+              class="h-[19px] w-[19px] fill-none stroke-current stroke-[1.7] [stroke-linecap:round] [stroke-linejoin:round]">
+              <path d="M5 8h14l-1 13H6L5 8Z"></path>
+              <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+            </svg>
+          </button>
+
+          <a
+            href="#appointment"
+            class="hidden min-h-[40px] items-center justify-center rounded-[6px] bg-brand px-[17px] text-[10px] font-bold uppercase tracking-[0.04em] text-white lg:inline-flex">
+            Book Eye Test
+          </a>
+
+          <!-- JS will control this button later. -->
+          <button
+            class="flex h-[40px] w-[40px] cursor-pointer flex-col items-center justify-center gap-[4px] lg:hidden"
+            aria-label="Open menu">
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Placeholder (JS will open/close this later by removing "hidden") -->
+      <div class="hidden bg-navy px-[16px] py-[24px] text-white">
+        <nav class="flex flex-col" aria-label="Mobile navigation">
+          <a href="#eyeglasses" class="border-b border-white/12 py-[15px] text-[15px]">Eyeglasses</a>
+          <a href="#sunglasses" class="border-b border-white/12 py-[15px] text-[15px]">Sunglasses</a>
+          <a href="#lenses" class="border-b border-white/12 py-[15px] text-[15px]">Contact Lenses</a>
+          <a href="#eye-care" class="border-b border-white/12 py-[15px] text-[15px]">Eye Care</a>
+          <a href="#lens-tech" class="border-b border-white/12 py-[15px] text-[15px]">Lenses</a>
+          <a href="#about" class="border-b border-white/12 py-[15px] text-[15px]">About Us</a>
+
+          <a href="#appointment" class="mt-[18px] rounded-[8px] bg-brand px-[18px] py-[13px] text-center text-[15px]">
+            Book Eye Test
+          </a>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>

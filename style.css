@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@theme {
+  /* Font (same as old body rule) */
+  --font-sans: "Inter", sans-serif;
+
+  /* Colors from the old :root variables */
+  --color-navy: #071a2b;
+  --color-brand: #1677ff; /* old --blue */
+  --color-muted: #667085;
+  --color-light: #f5f7fa;
+  --color-line: #dfe5ec; /* old --border */
+
+  /* Your site switches layout at 1100px and 1400px, not Tailwind's defaults */
+  --breakpoint-lg: 1100px;
+  --breakpoint-xl: 1400px;
+}
