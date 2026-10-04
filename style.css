@@ -1,7 +1,11 @@
 @import "tailwindcss";
 @theme {
-  /* Font (same as old body rule) */
   --font-sans: "Inter", sans-serif;
+
+  /* added new fonts */
+  --font-elsie: "Elsie Swash Caps", cursive;
+  --font-monsieur: "Monsieur La Doulaise", cursive;
+  --font-corinthia: "Corinthia", cursive;
 
   /* Colors from the old :root variables */
   --color-navy: #071a2b;
@@ -10,7 +14,12 @@
   --color-light: #f5f7fa;
   --color-line: #dfe5ec; /* old --border */
 
-  /* Your site switches layout at 1100px and 1400px, not Tailwind's defaults */
   --breakpoint-lg: 1100px;
   --breakpoint-xl: 1400px;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
