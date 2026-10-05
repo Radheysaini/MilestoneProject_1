@@ -23,3 +23,121 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* =========================================
+   CATEGORY GRID LAYOUT
+========================================= */
+
+/* .category-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+} */
+
+/* Tablet */
+/* @media (min-width: 768px) {
+  .category-grid-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .category-eyeglasses {
+    grid-column: span 2;
+  }
+} */
+
+/* Desktop */
+/* @media (min-width: 1100px) {
+  .category-grid-layout {
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-rows: 280px 280px 220px;
+
+    grid-template-areas:
+      "eyeglasses sunglasses"
+      "eyeglasses contact"
+      "kids kids";
+  }
+
+  .category-eyeglasses {
+    grid-area: eyeglasses;
+    min-height: 0;
+  }
+
+  .category-sunglasses {
+    grid-area: sunglasses;
+    min-height: 0;
+  }
+
+  .category-contact {
+    grid-area: contact;
+    min-height: 0;
+  }
+
+  .category-kids {
+    grid-area: kids;
+    min-height: 0;
+  }
+} */
+
+.category-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 768px) {
+  .category-grid-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .category-eyeglasses {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1100px) {
+  .category-grid-layout {
+    grid-template-columns: 1.15fr 0.85fr;
+
+    grid-template-rows:
+      280px
+      280px
+      280px
+      280px;
+
+    grid-template-areas:
+      "eyeglasses sunglasses"
+      "eyeglasses computer"
+      "sport kids"
+      "sport contact";
+  }
+
+  .category-eyeglasses {
+    grid-area: eyeglasses;
+    min-height: 0;
+  }
+
+  .category-sunglasses {
+    grid-area: sunglasses;
+    min-height: 0;
+  }
+
+  .category-computer {
+    grid-area: computer;
+    min-height: 0;
+  }
+
+  .category-sport {
+    grid-area: sport;
+    min-height: 0;
+  }
+
+  .category-kids {
+    grid-area: kids;
+    min-height: 0;
+  }
+
+  .category-contact {
+    grid-area: contact;
+    min-height: 0;
+  }
+}
