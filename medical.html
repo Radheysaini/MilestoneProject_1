@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jan Aushadhi | Suman Opticals & Medical</title>
+
+    <!-- Keep the SAME stylesheet link you are using in contact.html -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Elsie+Swash+Caps:wght@400;900&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body class="overflow-x-hidden bg-white font-sans leading-[1.5] text-[#101828]">
+    <!-- =========================
+       UTILITY BAR
+  ========================== -->
+
+    <div class="hidden md:block bg-navy text-[10px] text-[#aebccc]">
+      <div
+        class="mx-auto flex min-h-[34px] w-[min(100%_-_32px,1240px)] items-center justify-between md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+        <p class="pl-0 md:pl-8">Affordable Healthcare & Medicines</p>
+
+        <div class="flex gap-[22px] pr-2">
+          <a href="tel:+919XXXXXXXXX">Call Us</a>
+
+          <a href="#store">Store Location</a>
+
+          <a href="#medicines">Medicines</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================
+       MAIN NAVIGATION
+  ========================== -->
+
+    <header class="sticky top-0 z-[1000] border-b border-line bg-white/90 backdrop-blur-[10px]">
+      <div
+        class="mx-auto flex min-h-[70px] w-[min(100%_-_32px,1240px)] items-center justify-between gap-[20px] md:w-[min(100%_-_64px,1240px)] lg:min-h-[76px] lg:w-[min(100%_-_80px,1240px)]">
+        <!-- Logo -->
+
+        <div class="inline-flex shrink-0 items-center gap-[10px]">
+          <a href="./index.html" class="inline-flex items-center gap-[8px]">
+            <img src="images/suman-logo.jpeg" alt="Suman Opticals logo" class="h-[34px] w-[34px] object-contain" />
+
+            <span class="whitespace-nowrap text-[15px] font-bold tracking-[0.08em] text-navy">SUMAN OPTICALS</span>
+          </a>
+
+          <a
+            href="./medical.html"
+            class="inline-flex items-center gap-[3px] whitespace-nowrap text-[11px] font-semibold text-[#d11a2a]">
+            <span class="text-[13px] font-medium">&</span>
+
+            <span class="text-[11px]">Medical</span>
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+
+        <nav class="hidden lg:ml-auto lg:flex lg:items-center lg:gap-[26px]" aria-label="Main navigation">
+          <a
+            href="./index.html"
+            class="text-[13px] font-medium text-[#344054] transition-colors duration-[250ms] hover:text-brand">
+            Home
+          </a>
+
+          <a
+            href="./services.html"
+            class="text-[13px] font-medium text-[#344054] transition-colors duration-[250ms] hover:text-brand">
+            Services
+          </a>
+
+          <a
+            href="./gallery.html"
+            class="text-[13px] font-medium text-[#344054] transition-colors duration-[250ms] hover:text-brand">
+            Gallery
+          </a>
+
+          <a
+            href="./contact.html"
+            class="text-[13px] font-medium text-[#344054] transition-colors duration-[250ms] hover:text-brand">
+            Contact
+          </a>
+        </nav>
+
+        <!-- Navigation Actions -->
+
+        <div class="flex items-center gap-[8px] lg:ml-[10px]">
+          <!-- Call -->
+
+          <a
+            href="tel:+919XXXXXXXXX"
+            class="grid h-[38px] w-[38px] cursor-pointer place-items-center rounded-full text-navy transition-colors duration-[250ms] hover:bg-brand hover:text-white"
+            aria-label="Call us">
+            <svg
+              viewBox="0 0 24 24"
+              class="h-[18px] w-[18px] fill-none stroke-current stroke-[1.7] [stroke-linecap:round] [stroke-linejoin:round]">
+              <path
+                d="M6.6 3.5h3l1.5 4-2 1.5a15 15 0 0 0 5.9 5.9l1.5-2 4 1.5v3c0 1.1-.9 2-2 2C10.5 19.4 4.6 13.5 4.6 5.5c0-1.1.9-2 2-2Z"></path>
+            </svg>
+          </a>
+
+          <!-- Find Medicines -->
+
+          <a
+            href="#medicines"
+            class="hidden min-h-[40px] items-center justify-center rounded-[6px] bg-brand px-[17px] text-[10px] font-bold uppercase tracking-[0.04em] text-white lg:inline-flex">
+            Find Medicines
+          </a>
+
+          <!-- Mobile Menu -->
+
+          <button
+            class="flex h-[40px] w-[40px] cursor-pointer flex-col items-center justify-center gap-[4px] lg:hidden"
+            aria-label="Open menu">
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+
+      <div class="hidden bg-navy px-[16px] py-[24px] text-white">
+        <nav class="flex flex-col" aria-label="Mobile navigation">
+          <a href="./index.html" class="border-b border-white/12 py-[15px] text-[15px]">Home</a>
+
+          <a href="./services.html" class="border-b border-white/12 py-[15px] text-[15px]">Services</a>
+
+          <a href="./gallery.html" class="border-b border-white/12 py-[15px] text-[15px]">Gallery</a>
+
+          <a href="./contact.html" class="border-b border-white/12 py-[15px] text-[15px]">Contact</a>
+
+          <a href="#medicines" class="mt-[18px] rounded-[8px] bg-brand px-[18px] py-[13px] text-center text-[15px]">
+            Find Medicines
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =========================
+       HERO
+  ========================== -->
+
+    <main>
+      <section class="bg-navy py-[80px] text-white md:py-[110px] lg:py-[130px]">
+        <div
+          class="mx-auto grid w-[min(100%_-_32px,1240px)] items-center gap-[50px] md:w-[min(100%_-_64px,1240px)] lg:grid-cols-[1.1fr_0.9fr] lg:gap-[80px] lg:w-[min(100%_-_80px,1240px)]">
+          <!-- Hero Text -->
+
+          <div>
+            <div class="flex items-center gap-[10px] text-[9px] font-bold uppercase tracking-[0.14em] text-[#69a8ff]">
+              <span class="block h-[2px] w-[24px] bg-[#69a8ff]"></span>
+
+              JAN AUSHADHI
+            </div>
+
+            <h1
+              class="mt-[20px] max-w-[700px] text-[clamp(48px,8vw,92px)] font-normal leading-[0.94] tracking-[-0.055em] font-elsie">
+              Better care.
+              <span class="block font-bold font-corinthia">Better value.</span>
+            </h1>
+
+            <p class="mt-[24px] max-w-[560px] text-[14px] leading-[1.8] text-[#aebccc]">
+              Affordable generic medicines and everyday healthcare essentials, with a focus on accessible care and
+              trusted service for your family.
+            </p>
+
+            <div class="mt-[30px] flex flex-col gap-[10px] sm:flex-row">
+              <a
+                href="#medicines"
+                class="inline-flex min-h-[46px] items-center justify-center rounded-[7px] bg-brand px-[22px] text-[11px] font-bold text-white transition duration-[250ms] hover:-translate-y-[2px]">
+                Explore Medicines
+              </a>
+
+              <a
+                href="tel:+919XXXXXXXXX"
+                class="inline-flex min-h-[46px] items-center justify-center rounded-[7px] border border-white/20 px-[22px] text-[11px] font-bold text-white transition duration-[250ms] hover:bg-white hover:text-navy">
+                Call Store
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Card -->
+
+          <div class="rounded-[18px] border border-white/15 bg-white/10 p-[25px] backdrop-blur-[12px] md:p-[35px]">
+            <span class="text-[9px] font-bold uppercase tracking-[0.14em] text-[#aebccc]">WHY CHOOSE US</span>
+
+            <h2 class="mt-[15px] text-[27px] font-bold leading-[1.1]">
+              Healthcare that
+              <span class="text-[#69a8ff]">respects your budget.</span>
+            </h2>
+
+            <div class="mt-[25px] space-y-[18px]">
+              <div class="flex gap-[13px]">
+                <span
+                  class="mt-[2px] grid h-[28px] w-[28px] shrink-0 place-items-center rounded-full bg-white/10 text-[12px]">
+                  ✓
+                </span>
+
+                <div>
+                  <h3 class="text-[12px] font-semibold">Affordable medicines</h3>
+
+                  <p class="mt-[4px] text-[11px] leading-[1.6] text-[#aebccc]">
+                    Options designed to make everyday healthcare more accessible.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-[13px]">
+                <span
+                  class="mt-[2px] grid h-[28px] w-[28px] shrink-0 place-items-center rounded-full bg-white/10 text-[12px]">
+                  ✓
+                </span>
+
+                <div>
+                  <h3 class="text-[12px] font-semibold">Quality-focused service</h3>
+
+                  <p class="mt-[4px] text-[11px] leading-[1.6] text-[#aebccc]">
+                    We help you find the right product for your healthcare needs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-[13px]">
+                <span
+                  class="mt-[2px] grid h-[28px] w-[28px] shrink-0 place-items-center rounded-full bg-white/10 text-[12px]">
+                  ✓
+                </span>
+
+                <div>
+                  <h3 class="text-[12px] font-semibold">Convenient local access</h3>
+
+                  <p class="mt-[4px] text-[11px] leading-[1.6] text-[#aebccc]">
+                    Get your medicines without unnecessary travel or complexity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         MEDICINE CATEGORIES
+    ========================== -->
+
+      <section id="medicines" class="bg-light py-[75px] md:py-[95px] lg:py-[115px]">
+        <div class="mx-auto w-[min(100%_-_32px,1240px)] md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+          <div class="mb-[45px] max-w-[650px]">
+            <div class="flex items-center gap-[10px] text-[9px] font-bold uppercase tracking-[0.14em] text-brand">
+              <span class="block h-[2px] w-[24px] bg-brand"></span>
+
+              MEDICINE RANGE
+            </div>
+
+            <h2
+              class="mt-[15px] text-[clamp(38px,7vw,64px)] font-normal leading-[0.96] tracking-[-0.045em] text-navy font-elsie">
+              Everyday medicines,
+              <span class="block font-bold font-corinthia">made accessible.</span>
+            </h2>
+          </div>
+
+          <!-- Category Grid -->
+
+          <div class="grid grid-cols-1 gap-[14px] md:grid-cols-2 lg:grid-cols-3">
+            <!-- Card -->
+
+            <div class="rounded-[14px] bg-white p-[25px]">
+              <span class="text-[9px] font-bold tracking-[0.12em] text-brand">01</span>
+
+              <h3 class="mt-[15px] text-[19px] font-bold text-navy">Pain Relief</h3>
+
+              <p class="mt-[8px] text-[12px] leading-[1.7] text-muted">
+                Common healthcare products for everyday pain and discomfort.
+              </p>
+            </div>
+
+            <div class="rounded-[14px] bg-white p-[25px]">
+              <span class="text-[9px] font-bold tracking-[0.12em] text-brand">02</span>
+
+              <h3 class="mt-[15px] text-[19px] font-bold text-navy">Vitamins & Supplements</h3>
+
+              <p class="mt-[8px] text-[12px] leading-[1.7] text-muted">Everyday nutritional and wellness products.</p>
+            </div>
+
+            <div class="rounded-[14px] bg-white p-[25px]">
+              <span class="text-[9px] font-bold tracking-[0.12em] text-brand">03</span>
+
+              <h3 class="mt-[15px] text-[19px] font-bold text-navy">Diabetes Care</h3>
+
+              <p class="mt-[8px] text-[12px] leading-[1.7] text-muted">
+                Medicines and healthcare products for diabetes management.
+              </p>
+            </div>
+
+            <div class="rounded-[14px] bg-white p-[25px]">
+              <span class="text-[9px] font-bold tracking-[0.12em] text-brand">04</span>
+
+              <h3 class="mt-[15px] text-[19px] font-bold text-navy">Cold & Allergy</h3>
+
+              <p class="mt-[8px] text-[12px] leading-[1.7] text-muted">
+                Everyday products for common cold and allergy needs.
+              </p>
+            </div>
+
+            <div class="rounded-[14px] bg-white p-[25px]">
+              <span class="text-[9px] font-bold tracking-[0.12em] text-brand">05</span>
+
+              <h3 class="mt-[15px] text-[19px] font-bold text-navy">Digestive Care</h3>
+
+              <p class="mt-[8px] text-[12px] leading-[1.7] text-muted">
+                Products supporting common digestive healthcare needs.
+              </p>
+            </div>
+
+            <div class="rounded-[14px] bg-white p-[25px]">
+              <span class="text-[9px] font-bold tracking-[0.12em] text-brand">06</span>
+
+              <h3 class="mt-[15px] text-[19px] font-bold text-navy">First Aid</h3>
+
+              <p class="mt-[8px] text-[12px] leading-[1.7] text-muted">
+                Useful first-aid and everyday healthcare essentials.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         WHY JAN AUSHADHI
+    ========================== -->
+
+      <section class="bg-white py-[75px] md:py-[95px] lg:py-[115px]">
+        <div
+          class="mx-auto grid w-[min(100%_-_32px,1240px)] gap-[45px] md:w-[min(100%_-_64px,1240px)] lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:gap-[100px] lg:w-[min(100%_-_80px,1240px)]">
+          <div>
+            <span class="text-[9px] font-bold uppercase tracking-[0.14em] text-brand">SIMPLE & TRANSPARENT</span>
+
+            <h2
+              class="mt-[14px] text-[clamp(38px,6vw,58px)] font-normal leading-[0.98] tracking-[-0.045em] text-navy font-elsie">
+              Healthcare should
+              <span class="block font-bold font-corinthia">be accessible.</span>
+            </h2>
+          </div>
+
+          <div class="grid gap-[28px] sm:grid-cols-2">
+            <div class="border-t border-line pt-[18px]">
+              <span class="text-[10px] font-bold text-brand">01</span>
+
+              <h3 class="mt-[9px] text-[15px] font-bold text-navy">Affordable options</h3>
+
+              <p class="mt-[7px] text-[12px] leading-[1.7] text-muted">
+                Generic medicines can provide more accessible choices for everyday healthcare needs.
+              </p>
+            </div>
+
+            <div class="border-t border-line pt-[18px]">
+              <span class="text-[10px] font-bold text-brand">02</span>
+
+              <h3 class="mt-[9px] text-[15px] font-bold text-navy">Trusted assistance</h3>
+
+              <p class="mt-[7px] text-[12px] leading-[1.7] text-muted">
+                Our team can help you understand available products and find what you need.
+              </p>
+            </div>
+
+            <div class="border-t border-line pt-[18px]">
+              <span class="text-[10px] font-bold text-brand">03</span>
+
+              <h3 class="mt-[9px] text-[15px] font-bold text-navy">Local convenience</h3>
+
+              <p class="mt-[7px] text-[12px] leading-[1.7] text-muted">
+                Visit our store locally for medicines and healthcare essentials.
+              </p>
+            </div>
+
+            <div class="border-t border-line pt-[18px]">
+              <span class="text-[10px] font-bold text-brand">04</span>
+
+              <h3 class="mt-[9px] text-[15px] font-bold text-navy">Ask before you buy</h3>
+
+              <p class="mt-[7px] text-[12px] leading-[1.7] text-muted">
+                For prescription medicines, bring your prescription and speak with our staff.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         STORE CTA
+    ========================== -->
+
+      <section id="store" class="bg-navy py-[70px] text-white md:py-[90px]">
+        <div
+          class="mx-auto flex w-[min(100%_-_32px,1240px)] flex-col gap-[25px] md:w-[min(100%_-_64px,1240px)] md:flex-row md:items-center md:justify-between lg:w-[min(100%_-_80px,1240px)]">
+          <div>
+            <span class="text-[9px] font-bold uppercase tracking-[0.14em] text-[#69a8ff]">VISIT OUR STORE</span>
+
+            <h2 class="mt-[10px] text-[30px] font-bold tracking-[-0.03em]">Your healthcare, closer to home.</h2>
+
+            <p class="mt-[8px] text-[12px] text-[#aebccc]">Lakheri, Rajasthan · 323603</p>
+          </div>
+
+          <a
+            href="tel:+919XXXXXXXXX"
+            class="inline-flex min-h-[46px] shrink-0 items-center justify-center rounded-[7px] bg-brand px-[22px] text-[11px] font-bold text-white transition duration-[250ms] hover:-translate-y-[2px]">
+            Call Store →
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+       FOOTER
+  ========================== -->
+
+    <footer class="bg-[#04111d] text-white">
+      <div
+        class="mx-auto flex w-[min(100%_-_32px,1240px)] flex-col gap-[25px] py-[40px] md:w-[min(100%_-_64px,1240px)] md:flex-row md:items-center md:justify-between lg:w-[min(100%_-_80px,1240px)]">
+        <div>
+          <a href="./index.html" class="inline-flex items-center gap-[9px]">
+            <img src="images/suman-logo.jpeg" alt="Suman Opticals logo" class="h-[34px] w-[34px] object-contain" />
+
+            <span class="text-[14px] font-bold tracking-[0.06em]">SUMAN OPTICALS</span>
+
+            <span class="text-[10px] font-semibold text-[#d11a2a]">& Medical</span>
+          </a>
+
+          <p class="mt-[9px] text-[10px] text-[#8f9baa]">Affordable healthcare and modern eye care.</p>
+        </div>
+
+        <div class="text-[10px] text-[#8f9baa]">© 2026 Suman Opticals & Medical. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
