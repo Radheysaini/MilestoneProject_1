@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact | Suman Opticals & Medical</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Corinthia:wght@400;700&family=Elsie+Swash+Caps:wght@400;900&display=swap"
+      rel="stylesheet" />
+
+    <!-- Tailwind compiled CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="images/suman-logo.jpeg" />
+  </head>
+
+  <body class="overflow-x-hidden bg-white font-sans leading-[1.5] text-[#101828]">
+    <!-- =========================
+         UTILITY BAR
+    ========================== -->
+
+    <div class="hidden md:block bg-navy text-[10px] text-[#aebccc]">
+      <div
+        class="mx-auto flex min-h-[34px] w-[min(100%_-_32px,1240px)] items-center justify-between md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+        <p>Professional Eye Care & Eyewear</p>
+
+        <div class="flex gap-[22px]">
+          <a href="tel:+919XXXXXXXXX" class="transition hover:text-white">Call Us</a>
+
+          <a href="#location" class="transition hover:text-white">Store Location</a>
+
+          <a href="#appointment" class="transition hover:text-white">Book Eye Test</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <!-- =========================
+     MAIN NAVIGATION
+========================== -->
+
+    <!-- =========================
+     MAIN NAVIGATION
+========================== -->
+
+    <header class="sticky top-0 z-[1000] border-b border-line bg-white/20 backdrop-blur-[10px]">
+      <div
+        class="mx-auto flex min-h-[70px] w-[min(100%_-_32px,1240px)] items-center justify-between gap-[20px] md:w-[min(100%_-_64px,1240px)] lg:min-h-[76px] lg:w-[min(100%_-_80px,1240px)]">
+        <!-- Logo -->
+        <div class="inline-flex shrink-0 items-center gap-[10px]">
+          <a href="./index.html" class="inline-flex items-center gap-[8px]">
+            <img src="images/suman-logo.jpeg" alt="Suman Opticals logo" class="h-[34px] w-[34px] object-contain" />
+
+            <span class="whitespace-nowrap text-[15px] font-bold tracking-[0.08em] text-navy">SUMAN OPTICALS</span>
+          </a>
+
+          <a
+            href="medical.html"
+            class="inline-flex items-center gap-[3px] whitespace-nowrap text-[11px] font-semibold text-[#d11a2a] transition-[color] duration-200 ease-[ease] hover:text-[#a9000f] motion-reduce:transition-none">
+            <span class="text-[13px] font-medium">&</span>
+            <span class="text-[11px]">Medical</span>
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:ml-auto lg:flex lg:items-center lg:gap-[26px]" aria-label="Main navigation">
+          <a
+            href="./index.html"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Home
+          </a>
+
+          <a
+            href="./services.html"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Services
+          </a>
+
+          <a
+            href="./gallery.html"
+            class="text-[13px] font-medium text-[#344054] transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Gallery
+          </a>
+
+          <a
+            href="./contact.html"
+            class="text-[13px] font-medium text-brand transition-[color] duration-[250ms] ease-[ease] hover:text-brand motion-reduce:transition-none">
+            Contact
+          </a>
+        </nav>
+
+        <!-- Navigation Actions -->
+        <div class="flex items-center gap-[8px] lg:ml-[10px]">
+          <!-- Call Button -->
+          <a
+            href="tel:+919XXXXXXXXX"
+            class="grid h-[38px] w-[38px] cursor-pointer place-items-center rounded-full text-navy transition-colors duration-[250ms] hover:bg-brand hover:text-white"
+            aria-label="Call us">
+            <svg
+              viewBox="0 0 24 24"
+              class="h-[18px] w-[18px] fill-none stroke-current stroke-[1.7] [stroke-linecap:round] [stroke-linejoin:round]">
+              <path
+                d="M6.6 3.5h3l1.5 4-2 1.5a15 15 0 0 0 5.9 5.9l1.5-2 4 1.5v3c0 1.1-.9 2-2 2C10.5 19.4 4.6 13.5 4.6 5.5c0-1.1.9-2 2-2Z"></path>
+            </svg>
+          </a>
+
+          <!-- Book Eye Test -->
+          <a
+            href="#appointment"
+            class="hidden min-h-[40px] items-center justify-center rounded-[6px] bg-brand px-[17px] text-[10px] font-bold uppercase tracking-[0.04em] text-white lg:inline-flex">
+            Book Eye Test
+          </a>
+
+          <!-- Mobile Menu Button -->
+          <button
+            class="flex h-[40px] w-[40px] cursor-pointer flex-col items-center justify-center gap-[4px] lg:hidden"
+            aria-label="Open menu">
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+            <span class="block h-[1.5px] w-[18px] bg-navy"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="hidden bg-navy px-[16px] py-[24px] text-white">
+        <nav class="flex flex-col" aria-label="Mobile navigation">
+          <a href="./index.html" class="border-b border-white/12 py-[15px] text-[15px]">Home</a>
+
+          <a href="./services.html" class="border-b border-white/12 py-[15px] text-[15px]">Services</a>
+
+          <a href="./gallery.html" class="border-b border-white/12 py-[15px] text-[15px]">Gallery</a>
+
+          <a href="./contact.html" class="border-b border-white/12 py-[15px] text-[15px]">Contact</a>
+
+          <a href="#appointment" class="mt-[18px] rounded-[8px] bg-brand px-[18px] py-[13px] text-center text-[15px]">
+            Book Eye Test
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+           CONTACT INTRO
+      ========================== -->
+
+      <!-- =========================
+     CONTACT INTRO
+========================== -->
+
+      <section class="bg-navy py-[70px] text-white md:py-[90px] lg:py-[110px]">
+        <div class="mx-auto w-[min(100%_-_32px,1240px)] md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+          <div class="max-w-[760px]">
+            <!-- Eyebrow -->
+            <div class="flex items-center gap-[10px] text-[9px] font-bold uppercase tracking-[0.12em] text-brand">
+              <span class="block h-[2px] w-[24px] bg-brand"></span>
+              GET IN TOUCH
+            </div>
+
+            <!-- Heading -->
+            <h1
+              class="mt-[18px] text-[clamp(48px,9vw,82px)] font-normal leading-[0.96] tracking-[-0.055em] text-white font-elsie">
+              Let's talk about
+              <span class="block font-bold text-white font-corinthia">Your Vision.</span>
+            </h1>
+
+            <!-- Description -->
+            <p class="mt-[22px] max-w-[580px] text-[14px] leading-[1.7] text-[#aebccc]">
+              Whether you need a new pair of glasses, contact lenses or a professional eye test, we're here to help you
+              find the right solution.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           CONTACT DETAILS + FORM
+      ========================== -->
+
+      <!-- =========================
+     CONTACT INFORMATION
+========================== -->
+
+      <section id="contact" class="bg-white py-[70px] md:py-[90px] lg:py-[110px]">
+        <div class="mx-auto w-[min(100%_-_32px,1240px)] md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+          <div class="grid grid-cols-1 gap-[40px] md:grid-cols-3 md:gap-[30px] lg:gap-[70px]">
+            <!-- LEFT: INTRO -->
+            <div>
+              <span class="text-[9px] font-bold uppercase tracking-[0.12em] text-brand">VISIT OUR STORE</span>
+
+              <h2
+                class="mt-[12px] max-w-[420px] text-[clamp(32px,6vw,48px)] font-normal leading-[1] tracking-[-0.04em] text-navy font-elsie">
+                We'd love to
+                <span class="block font-bold font-corinthia">See You.</span>
+              </h2>
+            </div>
+
+            <!-- CENTER: ADDRESS + PHONE -->
+            <div>
+              <!-- Address -->
+              <div>
+                <h3 class="text-[10px] font-bold uppercase tracking-[0.12em] text-navy">Store Address</h3>
+
+                <address class="mt-[9px] max-w-[300px] not-italic text-[13px] leading-[1.7] text-muted">
+                  Suman Opticals & Medical
+                  <br />
+                  Your Store Address
+                  <br />
+                  Jaipur, Rajasthan
+                </address>
+              </div>
+
+              <!-- Phone -->
+              <div class="mt-[28px]">
+                <h3 class="text-[10px] font-bold uppercase tracking-[0.12em] text-navy">Phone</h3>
+
+                <a
+                  href="tel:+919XXXXXXXXX"
+                  class="mt-[9px] block text-[13px] font-semibold text-navy transition-colors duration-[250ms] hover:text-brand">
+                  +91 9XXXXXXXXX
+                </a>
+              </div>
+            </div>
+
+            <!-- RIGHT: HOURS + CTA -->
+            <div>
+              <!-- Business Hours -->
+              <div>
+                <h3 class="text-[10px] font-bold uppercase tracking-[0.12em] text-navy">Business Hours</h3>
+
+                <p class="mt-[9px] text-[13px] leading-[1.7] text-muted">
+                  Monday – Saturday · 10:00 AM – 8:00 PM
+                  <br />
+                  Sunday · 11:00 AM – 5:00 PM
+                </p>
+              </div>
+
+              <!-- CTA -->
+              <a
+                href="tel:+919XXXXXXXXX"
+                class="mt-[30px] inline-flex min-h-[46px] items-center justify-center rounded-[7px] bg-brand px-[20px] text-[11px] font-bold text-white transition duration-[250ms] hover:-translate-y-[2px] hover:bg-[#0868ed]">
+                Call Us →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+     APPOINTMENT / CONTACT FORM
+========================== -->
+
+      <section class="bg-navy py-[70px] md:py-[90px] lg:py-[110px]">
+        <div class="mx-auto w-[min(100%_-_32px,1240px)] md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+          <div class="mx-auto max-w-[720px]">
+            <!-- FORM CARD -->
+            <!-- <div class="rounded-[14px] bg-white p-[24px] md:p-[35px] lg:p-[40px]"> -->
+            <div
+              class="rounded-[14px] border border-white/20 bg-white/90 p-[24px] shadow-[0_20px_60px_rgba(0,0,0,0.18)] backdrop-blur-[12px] md:p-[35px] lg:p-[40px]">
+              <!-- Form Heading -->
+              <div class="mb-[28px]">
+                <span class="text-[9px] font-bold uppercase tracking-[0.12em] text-brand">APPOINTMENT</span>
+
+                <h2 class="mt-[8px] text-[28px] font-bold tracking-[-0.03em] text-navy">Book an eye test</h2>
+
+                <p class="mt-[8px] text-[12px] leading-[1.6] text-muted">
+                  Fill in the form and our team will get back to you.
+                </p>
+              </div>
+
+              <!-- Form -->
+              <form action="#" method="post" class="space-y-[20px]">
+                <!-- Name -->
+                <div>
+                  <label for="name" class="mb-[7px] block text-[10px] font-semibold text-navy">Full Name</label>
+
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    placeholder="Enter your name"
+                    class="h-[48px] w-full rounded-[7px] border border-line bg-white px-[14px] text-[12px] text-navy outline-none transition placeholder:text-[#98a2b3] focus:border-brand focus:ring-2 focus:ring-brand/10" />
+                </div>
+
+                <!-- Phone -->
+                <div>
+                  <label for="phone" class="mb-[7px] block text-[10px] font-semibold text-navy">Phone Number</label>
+
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    required
+                    placeholder="+91 9XXXXXXXXX"
+                    class="h-[48px] w-full rounded-[7px] border border-line bg-white px-[14px] text-[12px] text-navy outline-none transition placeholder:text-[#98a2b3] focus:border-brand focus:ring-2 focus:ring-brand/10" />
+                </div>
+
+                <!-- Service -->
+                <div>
+                  <label for="service" class="mb-[7px] block text-[10px] font-semibold text-navy">
+                    What do you need help with?
+                  </label>
+
+                  <select
+                    id="service"
+                    name="service"
+                    required
+                    class="h-[48px] w-full rounded-[7px] border border-line bg-white px-[14px] text-[12px] text-navy outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/10">
+                    <option value="">Select a service</option>
+                    <option value="eye-test">Eye Testing</option>
+                    <option value="eyeglasses">Eyeglasses</option>
+                    <option value="sunglasses">Sunglasses</option>
+                    <option value="computer-glasses">Computer Glasses</option>
+                    <option value="contact-lenses">Contact Lenses</option>
+                    <option value="sport-glasses">Sport Glasses</option>
+                    <option value="kids-eyewear">Kids Eyewear</option>
+                  </select>
+                </div>
+
+                <!-- Message -->
+                <div>
+                  <label for="message" class="mb-[7px] block text-[10px] font-semibold text-navy">Message</label>
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    placeholder="Tell us how we can help..."
+                    class="w-full resize-y rounded-[7px] border border-line bg-white px-[14px] py-[12px] text-[12px] leading-[1.6] text-navy outline-none transition placeholder:text-[#98a2b3] focus:border-brand focus:ring-2 focus:ring-brand/10"></textarea>
+                </div>
+
+                <!-- Submit -->
+                <button
+                  type="submit"
+                  class="inline-flex min-h-[48px] w-full items-center justify-center rounded-[7px] bg-brand px-[20px] text-[11px] font-bold text-white transition duration-[250ms] hover:-translate-y-[2px] hover:bg-[#0868ed] focus:outline-none focus:ring-2 focus:ring-brand/30">
+                  Send Message →
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           MAP
+      ========================== -->
+
+      <section class="bg-light pb-[80px] lg:pb-[110px]" id="location">
+        <div class="mx-auto w-[min(100%_-_32px,1240px)] md:w-[min(100%_-_64px,1240px)] lg:w-[min(100%_-_80px,1240px)]">
+          <div class="mb-[25px]">
+            <span class="text-[9px] font-bold uppercase tracking-[0.12em] text-brand">FIND US</span>
+
+            <h2 class="mt-[8px] text-[32px] font-bold tracking-[-0.03em] text-navy">Visit our store</h2>
+          </div>
+
+          <div class="h-[360px] overflow-hidden rounded-[14px] border border-line bg-[#e9eef3] md:h-[430px]">
+            <!-- Replace the src with your actual Google Maps embed URL -->
+            <iframe
+              src="https://www.google.com/maps?q=Jaipur,Rajasthan&output=embed"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Suman Opticals and Medical location map"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="bg-navy text-white">
+      <div
+        class="mx-auto flex w-[min(100%_-_32px,1240px)] flex-col gap-[30px] py-[45px] md:w-[min(100%_-_64px,1240px)] md:flex-row md:items-center md:justify-between lg:w-[min(100%_-_80px,1240px)]">
+        <!-- Brand -->
+
+        <div>
+          <a href="index.html" class="inline-flex items-center gap-[9px]">
+            <img src="images/suman-logo.jpeg" alt="Suman Opticals logo" class="h-[38px] w-[38px] object-contain" />
+
+            <span class="text-[15px] font-bold tracking-[0.06em]">SUMAN OPTICALS</span>
+
+            <span class="text-[11px] font-semibold text-[#d11a2a]">& Medical</span>
+          </a>
+
+          <p class="mt-[12px] max-w-[300px] text-[11px] leading-[1.6] text-[#aebccc]">
+            Professional eye care and modern eyewear, thoughtfully chosen for your vision, comfort and everyday style.
+          </p>
+        </div>
+
+        <!-- Visit Us -->
+
+        <div>
+          <h3 class="text-[11px] font-bold uppercase tracking-[0.12em] text-white">Visit Us</h3>
+
+          <address class="mt-[10px] not-italic text-[11px] leading-[1.6] text-[#aebccc]">
+            Suman Opticals & Medical
+            <br />
+            Near Bank of Braoda, 323603
+            <br />
+            Lakheri, Bundi, Rajasthan
+          </address>
+
+          <a href="tel:+919XXXXXXXXX" class="mt-[8px] block text-[11px] font-semibold text-white">+91 97204 71084</a>
+
+          <p class="mt-[5px] text-[10px] text-[#aebccc]">
+            Mon – Sat · 8:00 AM – 10:00 PM
+            <br />
+            Sunday · 11:00 AM – 5:00 PM
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+
+      <div class="border-t border-white/10">
+        <div
+          class="mx-auto flex w-[min(100%_-_32px,1240px)] flex-col gap-[12px] py-[18px] text-[10px] text-[#8f9baa] md:w-[min(100%_-_64px,1240px)] md:flex-row md:items-center md:justify-between lg:w-[min(100%_-_80px,1240px)]">
+          <p>© 2026 Suman Opticals & Medical. All rights reserved.</p>
+
+          <div class="flex gap-[18px]">
+            <a href="#" class="transition hover:text-white">Privacy Policy</a>
+
+            <a href="#" class="transition hover:text-white">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
